@@ -1,0 +1,63 @@
+#filler{
+    height: 40px;
+    width: 100%;
+    background-color: #1C1C1C;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar1{
+    background-color: white;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.navbar1 div{
+    align-items: center;
+    text-align: center;
+}
+
+#textop{
+    color: #1C1C1C;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#itemnavbarp{
+    width: 150px;
+    height: 80px;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    background-color: brown;
+}
+
+#itemnavbar2{
+    width: 400px;
+    height: 100px;
+    background-color: brown;
+}
+#itemnavbar2 > img{
+    width: 400px;
+}
+
+.navbar1 div a{
+    color: #1C1C1C;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
