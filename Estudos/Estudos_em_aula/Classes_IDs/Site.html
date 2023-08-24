@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- !!! COMO ESPECIFICAR ITEMS NO CSS !!! -->
+    <div class="inicio">Div Inicial</div> <!-- Para classificar um item, utilizamos a palavra chave "class" e inserindo o nome da classe.-->
+                                          <!-- Após isso temos que utilizar o nome inserido no style CSS com um ponto final antes. EX: .inicio-->
+    <div class="banner">Eu sou um banner</div>
+    <div class="banner">Eu sou um banner</div> <!-- Cópia do banner de cima -->
+
+    <div class="banner" id="borda">Eu sou um banner com identificação "borda"</div> <!-- Para fazer com que o item ainda pertence a uma classe, porém não mude iguais as outras, basta inserir uma idetificação.-->
+                                                                     <!-- Neste caso, o item está com identificação "borda"-->
+    <div class="banner" id="marrom">Eu sou um banner com fonte marrom</div>
+    <div class="banner" id="largura">Eu sou um banner com metade da largura</div>
+
+    <div class="banner">
+        Eu sou uma div que contém divs filhas
+        <div>Filho 1</div>
+        <div>Filho 2</div>
+        <div>Filho 3</div>
+    </div>
+
+    <div class="fixa">Eu sou uma div fixa</div>
+    
+    <div class="inicio">Banner com transição</div>
+</body>
+</html>

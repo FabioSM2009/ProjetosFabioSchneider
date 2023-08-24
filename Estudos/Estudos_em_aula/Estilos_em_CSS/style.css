@@ -1,0 +1,79 @@
+/* O CSS tem uma formatação diferente do HTML. É mais semelhante com o JavaScript.
+A formatação básica do CSS consiste em... 
+
+SELETOR{
+    ATRIBUTO: VALOR;
+
+}                           
+
+------------------------------------------------
+
+Seletor: O sujeito que será atribuido os valores dentro das chaves. Nesse caso, p.
+Atributo: O que será mudado, EX: color, size, etc.
+Valor: O valor que será atribuido no seu respectivo atributo. */
+
+/* !!!IMPORTANTE!!! O código de CSS é preciso utilizar ";" no final dos comandos.
+
+p{     
+    color: red;
+}
+
+h1{
+    color: green;
+}
+
+body{
+    color: blue;
+    background-color: rgb(199, 210, 193);
+}
+
+--------------------------------------------------------------------------------------------*/
+
+div{
+    color: white;
+    background-color: black;
+    width: max-content; /* - Largura */
+    height: max-content; /* Comprimento */
+    margin: 20px 0 20px 0px; /* Espaçamento externo: Como o texto se afasta dos outros */
+    /* Os valores do margin seguem ordem horária, ou seja, primeiro valor = cima, segundo valor = esquerda, terceiro valor = embaixo, quarto valor = esquerda. */
+    /* Também há outra ordem com apenas dois valores. 
+    
+    margin: 10px, 0px;
+    
+    O primeiro valor vale para cima e para baixo, o segundo valor para direita e esquerda. */
+    
+    padding: 10px 30px; /* Espaçamento interior: Como o texto expande entre os outros.
+                       /* A mesma ordem do margin se aplica para o padding.*/
+
+    text-align: center; /* Alinha o texto no centro. Só facilita a vida kkkk...*/
+                        /* Há vários outros valores para este atributo. EX: left, right, etc.*/
+
+    font-size: 18px; /* Muda o tamanho do texto.*/
+
+    font-family: 'Courier New', Courier, monospace; /*Muda a fonte do texto.*/
+
+    border: 4px solid rgb(255, 252, 252); /* Cria uma borda no item. Também existe variáveis desse comando: bottom-top, bottom-right, bottom-left, bottom-bottom.*/
+                                         /* A ordem dos valores é: tamanho, estilo e cor.
+                                         /* Neste caso, tamanho = 4px, estilo = solid, cor = cinza */
+                                         /* Há varios outros tipos de estilos. EX: dotted, dashed, outset, etc. */                            
+
+    border-radius: 10px; /* Um atributo do border que faz ela ficar mais smooth. */
+                         /* Pode atribuir os valores com a mesma ordem que o margin e o padding. (Sentido Horário)*/
+
+    display: inline-block; /* Muda o display do item, neste caso deixa o item alinhado com os outros. */
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white
+}
+
+body{
+    background-color: black;
+}
+
+img{
+    margin-top: 20px;
+    height: 150px;
+    border: 4px solid rgb(255, 252, 252);
+}
+

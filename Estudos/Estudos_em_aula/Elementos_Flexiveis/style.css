@@ -1,0 +1,63 @@
+body{
+    margin: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.Inicio{
+        background-color: rgb(197,192,163);
+        display: flex; /* Torna o elemento flexível */
+        height: 200px;
+        justify-content: center; /*<-- Muda o espaçamento dos elementos HORIZONTALMENTE. */
+                                       /* Há vários outros valores para esse atributo. */
+        
+        align-items: center; /* Semelhante ao "text-align", este atributo alinha os elementos do site VERTICALMENTE. */
+        
+        gap: 10px; /*Semelhante ao "margin", porém, o gap é utilizado para criar um espaçamento entre os items.*/
+
+        flex-wrap: wrap; /* Faz com que se o tamanho da tela do dispositivo do usuario seja menor do que o tamanho dos elementos, eles se agrupem. */
+    
+        flex-direction: row; /*Muda a direção de como é inserido os items dentro do site. Neste caso, faz com que os items sejam colocados como colunas. */
+
+        padding: 20px 0px;
+
+}                                  
+
+
+.Inicio div{
+    background-color: rgb(206, 178, 138);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Inicio div:hover{
+    transition: 500ms;
+    background-color: rgb(241, 215, 178);
+    cursor: pointer;
+}
+
+.imagem{
+    background-color: rgb(206, 178, 138);
+    height: 200px;
+    width: 100%;
+    
+}
+
+.imagem2{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(197,192,163);
+    
+    background-image: url(imagens/A_Grande_Onda_de_Kanagawa.jpg); /* Faz com que a imagem torne-se o background do elemento. Utiliza-se o URL para definir a imagem.*/
+    
+    background-size: cover; /* É o tamanho do background da imagem. O valor "cover" faz com que a imagem cubra todo o espaçamento da div. */
+
+    background-position: bottom; /* É a posição da imagem quando o zoom é aplicado. Neste caso, a imagem se sair dos seus limites, vai mostrar a parte do meio. */
+}
