@@ -7,6 +7,17 @@
 body{
     padding: 0;
     margin: 0;
+    width: 100%;
+}
+
+.fundo{
+    background-image: url(Imagens/backgroundnoticia.jpg);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
 }
 
 label:hover{
@@ -166,6 +177,11 @@ label:hover{
     background-color: grey;
     border-radius: 30px;
 }
+.cardlongo:hover{
+    width: 310px;
+    height: 510px;
+    transition: 500ms;
+}
 
 .cardslargos{
     display: flex;
@@ -179,6 +195,11 @@ label:hover{
     background-color: grey;
     border-radius: 20px;
 }
+.cardlargo:hover{
+    transition: 500ms;
+    width: 360px;
+    height: 210px;
+}
 
 .noticias2{
     display: flex;
@@ -186,7 +207,31 @@ label:hover{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 600px;
+    height: 700px;
+}
+
+.cardlongo2{
+    width: 300px;
+    height: 500px;
+    background-color: grey;
+    border-radius: 30px;
+}
+.cardlongo2:hover{
+    width: 310px;
+    height: 510px;
+    transition: 500ms;
+}
+
+#cardlargo2{
+    width: 350px;
+    height: 200px;
+    background-color: grey;
+    border-radius: 20px;
+}
+.cardlargo2:hover{
+    transition: 500ms;
+    width: 360px;
+    height: 210px;
 }
 
 
