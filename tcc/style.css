@@ -11,7 +11,6 @@ body{
 }
 
 .fundo{
-    background-image: url(Imagens/backgroundnoticia.jpg);
     width: 100%;
     height: 100vh;
     position: fixed;
@@ -149,7 +148,6 @@ label:hover{
     justify-content: center;
     width: 700px;
     height: 300px;
-    display: flex;
     flex-direction: column;
 }
 
@@ -169,6 +167,44 @@ label:hover{
     display: flex;
     align-items: center;
     gap: 40px;
+}
+
+.noticiatexto1{
+    width: 850px;
+    height: 500px;
+}
+
+.titulonoticia1{
+    font-size: 45px;
+    font-family: 'Lora', serif;
+    padding-bottom: 20px;
+}
+
+.grupolegendas1{
+    width: 820px;
+    gap: 60px;
+    display: flex;  
+}
+.grupolegendas1 > div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+}
+.grupolegendas1 > div > div{
+    display: flex;
+    gap: 10px;
+    align-items: start;
+}
+.grupolegendas1 > div > div > a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+.grupolegendas1 > div > div > a:hover{
+    color: rgb(41, 180, 255);
+}
+.grupolegendas1 > div > div > img{
+    width: 20px;
 }
 
 .cardlongo{
