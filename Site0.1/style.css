@@ -1,0 +1,644 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#Icone{
+    width: 64px;
+}
+
+#IconeNavbar{
+    width: 64px;
+}
+
+#IconeSimoneLuz{
+    width: 150px;
+}
+
+#LinhaBranca{
+    justify-content: center;
+    width: 500px;
+    height: 5px;
+    display: none;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+#LinhaBranca2{
+    justify-content: center;
+    width: 500px;
+    height: 5px;
+    display: none;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+.PItem{
+    width: 100%;
+    height: min-content;
+    background-image: url(Imagens/BackgroundPrimeiroItem.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+#divsP{
+    width: calc(100% - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 650px;
+    margin-bottom: 190px;
+}
+
+#divP{
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#divP2{
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    gap: 40px;
+}
+
+#txtdivP{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.divRelatos{
+    width: 100%;
+    height: min-content;
+    background-image: url(Imagens/BackgroundRelatos.jpg);
+    display: flex;
+    background-size: cover;
+    background-position: top;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+#PlaceholderRelatos{
+    display: flex;
+    justify-content: center
+}
+
+#Imagemrelatos{
+    width: calc(100% - 80px);
+}
+
+.SItem{
+    width: 100%;
+    height: min-content;
+    background-image: url(Imagens/BackgroundSegundoItem.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+
+#TxtContato{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+#TxtContato > img{
+    height: 120px;
+    width: 500px;
+}
+
+#divsS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#cardredesociais{
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#cardredesociais > p{
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+}
+#cardredesociais > div{
+    display: flex;
+    gap: 10px;
+}
+#cardredesociais > div > a{
+    padding: 10px;
+    border-radius: 10px;
+}
+#cardredesociais > div > a:hover{
+    transition: 700ms;
+    background-color: rgba(128, 128, 128, 0.322);
+}
+
+#cardlocalizacao{
+    height: 600px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+#cardlocalizacao > iframe{
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+}
+#cardlocalizacao > p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+#cardnumero{
+    height: 600px;
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+}
+
+#Txtnumero > p{
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+}
+
+#numeros{
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#numero{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#numero > p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.DivArtigo{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: min-content;
+    background-image: url(Imagens/BackgroundArtigos.jpg);
+    background-size: cover;
+}
+#TxtArtigo{
+    margin-top: 40px;
+    height: 140px;
+    width: 470px;
+}
+#DivTxtArtigo{
+    display: flex;
+    justify-content: center;
+}
+.DivsCard{
+    justify-content: center;
+    gap: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.DivCard{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-bottom: 60px;
+}
+
+.TItem{
+    border-top: 5px white solid;
+    background-image: url(Imagens/BackgroundTerceiroItem.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+}
+
+.TItem > p{
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    margin: 40px;
+}
+
+#divsT{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 70px;
+}
+
+#divsT1{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#divT1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#divT1texto{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+#Titulo{
+    font-size: 48px;
+}
+#Info{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+}
+#divT1-5{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 300px;
+    height: 300px;
+}
+
+.Navbar{
+    background-image: url(Imagens/BackgroundNavbar.jpg);
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#divsNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+#divNavbar1{
+    display: flex;
+}
+#NumerosNavbar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#NumeroNavbar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+#IconesNavbar{
+    display: flex;
+    gap: 15px;
+}
+
+#divNavbar2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    display: block;
+}
+
+@media (max-width: 1283px) {
+    #divsS{
+        gap: 0px;
+    }
+}
+
+@media (max-width: 1230px) {
+    #divP, #divP2{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1198px) {
+
+    #cardlocalizacao{
+        height: 350px;
+        width: 250px;
+    }
+
+    #cardlocalizacao > iframe{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 1168px) {
+    #divsT{
+        justify-content: center;
+        margin-right: 0px;
+    }
+
+    .TItem{
+        background-image: url(Imagens/BackgroundTerceiroItem2.jpg);
+        background-position: top;
+    }
+
+    #divNavbar2{
+        display: none;
+    }
+}
+
+@media (max-width: 1110px) {
+    #divP, #divP2{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1060px) {
+    #divP, #divP2{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1051px) {
+    #cardlocalizacao{
+        height: 300px;
+        width: 200px;
+    }
+
+    #cardlocalizacao > iframe{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+@media (max-width: 1025px) {
+    #divP, #divP2{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 1005px) {
+
+    #LinhaBranca{
+        display: block;
+    }
+
+    #LinhaBranca2{
+        display: block;
+    }
+
+    #cardredesociais{
+        height: 320px;
+        width: 400px;
+    }
+
+    #cardlocalizacao{
+        height: 400px;
+        width: 400px;
+    }
+
+    #cardnumero{
+        height: 400px;
+    }
+
+    #numeros{
+        height: 400px;
+        width: 400px;
+    }
+
+    #divsS{
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    #cardlocalizacao{
+        height: 600px;
+        width: 700px;
+    }
+
+    #cardlocalizacao > iframe{
+        width: 600px;
+        height: 600px;
+    }
+}
+
+@media (max-width: 978px) {
+    #txtdivP{
+        width: 130px;
+    }
+}
+
+@media (max-width: 945px) {
+    #divsP{
+        gap: 550px;
+    }
+}
+
+@media (max-width: 856px) {
+
+    #divsP{
+        gap: 350px;
+    }
+
+    #txtdivP{
+        width: 160px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 740px) {
+    #NumeroNavbar > p{
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    #cardlocalizacao{
+        height: 600px;
+        width: 500px;
+    }
+
+    #cardlocalizacao > iframe{
+        width: 500px;
+        height: 500px;
+    }
+
+}
+@media (max-width: 685px) {
+    #divsT1{
+        flex-direction: column;
+    }
+    #divT1texto{
+        justify-content: center;
+        text-align: center;
+    }
+    .TItem{
+        height: 1200px;
+    }
+
+    #divsP{
+        gap: 150px;
+    }
+
+    .DivsCard{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 528px) {
+
+    #LinhaBranca{
+        width: 300px;
+    }
+    #LinhaBranca2{
+        width: 300px;
+    }
+    
+    #cardlocalizacao{
+        height: 600px;
+        width: 400px;
+    }
+
+    #cardlocalizacao > iframe{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 508px) {
+
+    #TxtArtigo{
+        height: 110px;
+        width: 350px;
+    }
+
+    .divRelatos{
+        display: none;
+    }
+    
+    #divsP{
+        gap: 200px;
+    }
+
+    #txtdivP{
+        width: 125px;
+        font-size: 11px;
+    }
+
+    #IconeSimoneLuz{
+        width: 125px;
+    }
+
+    #TxtContato > img{
+        height: 100px;
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 460px) {
+    
+    #divsP{
+        gap: 175px;
+    }
+
+    #txtdivP{
+        width: 105px;
+        font-size: 10px;
+        color: rgb(255, 255, 255);
+    }
+
+    .PItem{
+        background-image: url(Imagens/BackgroundPrimeiroItem2.png);
+    }
+
+    #IconeNavbar{
+        width: 34px;
+    }
+    
+    #cardlocalizacao{
+        height: 600px;
+        width: 300px;
+    }
+
+    #cardlocalizacao > iframe{
+        width: 300px;
+        height: 300px;
+    }
+
+    #divsS{
+        gap:5px;
+    }
+
+}
+
+@media (max-width: 408px) {
+    
+    #divsP{
+        gap: 120px;
+    }
+
+    #txtdivP{
+        width: 110px;
+        font-size: 10px;
+        color: rgb(255, 255, 255);
+    }
+
+    #TxtContato > img{
+        height: 80px;
+        width: 350px;
+    }
+
+    #cardnumero{
+        height: 300px;
+        width: 250px;
+    }
+
+    #numeros{
+        height: 300px;
+        width: 250px;
+    }
+
+    #cardredesociais{
+        height: 280px;
+        width: 36000px;
+    }
+
+}
